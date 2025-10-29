@@ -1,0 +1,62 @@
+body{
+    background-image: url(evans.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.bigdiv{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 20px 20px;
+   
+}
+.smalldiv1{
+    flex-basis: 20%;
+    border: solid ;
+    background-color: white;
+    border-radius: 20px;
+}
+.smalldiv2{
+    flex-basis: 20%;
+    border: solid;
+    background-color: white;
+    border-radius: 20px;
+}
+.smalldiv3{
+    flex-basis: 20%;
+    border: solid ;
+    background-color: white;
+    border-radius: 20px;
+}
+.innerdiv1{
+    display: flex;
+    background-color: crimson;
+    border-radius: 15px;
+}
+.innerdiv2{
+    display: flex;
+    background-color: orangered;
+    border-radius: 16px;
+}
+.innerdiv3{
+    display: flex;
+    background-color: green;
+    border-radius: 16px;
+    flex-basis: 40%;
+}
+.views1{
+    border: solid 0.5px;
+    flex-basis: 40%;
+}
+.views2{
+    border:solid 0.5px;
+    flex-basis:40% ;
+}
+.views3{
+border:solid 0.5px;
+flex-basis:40% ;
+
+}
